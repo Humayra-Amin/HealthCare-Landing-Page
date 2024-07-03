@@ -13,13 +13,13 @@
 
     <style>
         .gradient-background {
-            background: linear-gradient(0deg, #E8F7FF 0%, #C9DDE7 17%);
+            background: linear-gradient(0deg, #eff9ff 0%, #f8fdff 17%);
         }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="gradient-background">
         <header class="container mx-auto my-5 md:w-4/5 lg:w-4/5">
             <!-- Navbar starts -->
             <nav>
@@ -165,7 +165,7 @@
             <!-- About us end -->
             <!-- service start -->
             <section class="flex justify-center mt-14">
-                <div class="hero lg:w-[1356px] lg:h-[928px] rounded-xl border border-black">
+                <div class="hero lg:w-[1356px] lg:h-[928px] rounded-xl bg-white border border-white shadow-xl">
                     <div class="hero-content p-4 flex-col justify-between items-center gap-4 lg:gap-6">
                         <div class="flex flex-col lg:flex-row justify-between items-center gap-4 lg:gap-8 w-full">
                             <div class="text-center lg:text-left lg:max-w-lg">
@@ -471,16 +471,16 @@
             <!-- FAQ ends -->
             <!-- Discount banner start -->
             <section class="mt-28 relative">
-                <div class="hero rounded-[48px] h-[200px] md:h-[200px] lg:h-[500px] bg-no-repeat"
-                    style="background-image:radial-gradient(648.07% 142.88% at 98.23% 78.35%, #020043 0%, rgba(2, 0, 67, 0.30) 40%), url('Images/Rectangle 32.png');;">
+                <div class="hero rounded-[48px] h-[200px] md:h-[300px] lg:h-[500px] bg-no-repeat"
+                    style="background-image:radial-gradient(648.07% 142.88% at 98.23% 78.35%, #020043 0%, rgba(2, 0, 67, 0.30) 40%), url('Images/Rectangle 32.png');">
                     <div
-                        class="hero-overlay h-[100px] md:h-[200px] lg:h-[500px] bg-gradient-to-tr from-transparent to-[rgba(2, 0, 67, 0.6)] rounded-[48px]">
+                        class="hero-overlay h-[100px] w-[100px] md:h-[300px] md:w-[760px] lg:h-[500px] lg:w-auto bg-gradient-to-tr from-transparent to-[rgba(2, 0, 67, 0.6)] rounded-[48px]">
                     </div>
-                    <img src="Images/logo light.png" class="mb-96 ml-[900px]">
+                    <img src="Images/logo light.png" class="md:ml-[500px] md:mb-60 lg:mb-96 lg:ml-[900px]">
                     <div
                         class="hero-content text-neutral-content text-left px-6 lg:px-12 absolute inset-0 flex items-center justify-start">
                         <div class="max-w-md text-white">
-                            <h1 class="mb-5 text-5xl font-bold">Get Your First Appointment at 50% Off!</h1>
+                            <h1 class="mb-5 text-xl md:text-5xl lg:text-5xl font-bold leading-[60px]">Get Your First Appointment at 50% Off!</h1>
                             <div class="">
                                 <button
                                     class="btn bg-amber-400 border-amber-400 font-bold hover:bg-amber-600 mt-6">Appointment
@@ -541,7 +541,5 @@
 
         </footer>
     </div>
-
 </body>
-
 </html>
