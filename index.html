@@ -13,64 +13,119 @@
 
     <style>
         .gradient-background {
-            background: linear-gradient(0deg, #00C19D 0%, #020043 47%);
+            background: linear-gradient(0deg, #E8F7FF 0%, #C9DDE7 17%);
         }
     </style>
 </head>
 
 <body>
-    <header class="container mx-auto my-5 md:w-4/5 lg:w-4/5">
-        <!-- Navbar starts -->
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+    <div class="">
+        <header class="container mx-auto my-5 md:w-4/5 lg:w-4/5">
+            <!-- Navbar starts -->
+            <nav>
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Home</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>About Us</a></li>
+                            </ul>
                         </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <a class="btn btn-ghost text-xs">
+                            <img src="Images/logo dark.png" alt="">
+                        </a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 lg:text-xl">
                             <li><a>Home</a></li>
                             <li><a>Services</a></li>
                             <li><a>Blog</a></li>
                             <li><a>About Us</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xs">
-                        <img src="Images/logo dark.png" alt="">
-                    </a>
+                    <div class="navbar-end">
+                        <a class="btn bg-white border-black">Appointment
+                            <img src="Images/Arrow 1.svg" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>About Us</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    <a class="btn bg-white border-black">Appointment
-                        <img src="Images/Arrow 1.svg" alt="">
-                    </a>
+            </nav>
+            <!-- Navbar ends -->
+    
+            <!-- banner starts -->
+            <div class="mt-6">
+                <div class="hero rounded-[48px] h-[200px] md:h-[300px] lg:h-[500px] bg-no-repeat"
+                    style="background-image:linear-gradient(179deg, rgba(0, 193, 157, 0.00) -25.42%, rgba(2, 0, 67, 0.47) 107.11%), url('Images/Rectangle 5.png');">
+                    <div class="hero-overlay bg-opacity-20 rounded-[48px]"></div>
                 </div>
             </div>
-        </nav>
-        <!-- Navbar ends -->
-
-        <!-- banner starts -->
-        <div class="mt-6">
-            <div class="hero rounded-[48px] h-[200px] md:h-[300px] lg:h-[500px] bg-no-repeat"
-                style="background-image:linear-gradient(179deg, rgba(0, 193, 157, 0.00) -25.42%, rgba(2, 0, 67, 0.47) 107.11%), url('Images/Rectangle 5.png');">
-                <div class="hero-overlay bg-opacity-30 rounded-[48px]"></div>
+            <!-- banner ends -->
+    
+            <!-- comprehensive care starts -->
+            <div>
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-semibold mt-8 md:mt-6 lg:mt-6 text-center">Comprehensive Care <br> for Every Patient</h2>
             </div>
-        </div>
-        <!-- banner ends -->
-        
-    </header>
+            <!-- cards -->
+            <div class="flex flex-wrap justify-center lg:justify-between">
+                <div class="w-full lg:w-1/6 bg-[#FBFBFB] rounded-3xl border border-[#02004333] mb-4 lg:mb-64 h-64 lg:h-80">
+                    <div class="ml-6 mt-4">
+                        <h3 class="text-4xl">90%</h3>
+                        <p class="text-xl mt-2">Patient satisfaction rate, reflecting our commitment.</p>
+                        <img src="Images/Group 12.svg" alt="" class="mt-4 ml-6 lg:w-auto lg:h-auto">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/5 bg-[#FFFFF5] rounded-3xl border border-[#02004333] mb-4 lg:mt-32 h-48">
+                    <div class="ml-6 mt-4">
+                        <h3 class="text-4xl">500%</h3>
+                        <p class="text-xl mt-2">Board-certified doctors</p>
+                        <img src="Images/contract (1) 1.svg" class="mt-2 ml-24 lg:w-[70px] lg:h-[70px]">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/5 lg:h-[160px] bg-[#FBFBFB] rounded-3xl border border-[#02004333] mb-4 lg:mt-40 h-48">
+                    <div class="ml-6 mt-4">
+                        <div class="flex gap-2">
+                            <h3 class="text-4xl">4.8</h3>
+                            <img src="Images/fi-sr-star.svg" alt="">
+                        </div>
+                        <p class="text-xl mt-2">Over 20,000 Patient</p>
+                        <div class="mt-4 -ml-1 flex justify-start">
+                            <img src="Images/Ellipse 2.svg" class="relative z-10">
+                            <img src="Images/Ellipse 3.svg" class="-ml-2 relative z-10">
+                            <img src="Images/Ellipse 4.svg" class="-ml-2 relative z-10">
+                            <img src="Images/Ellipse 5.svg" class="-ml-2 relative z-10">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/5 bg-[#FFFFF5] rounded-3xl border border-[#02004333] mb-4 lg:mt-32 h-48">
+                    <div class="ml-6 mt-4">
+                        <h3 class="text-4xl">$5000</h3>
+                        <p class="text-xl mt-2">Money spend for poor patient</p>
+                        <img src="Images/Group.svg" alt="" class="mb-2 ml-24 lg:w-[68px] lg:h-[68px]">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/6 bg-[#FBFBFB] border border-[#02004333] rounded-3xl mb-4 lg:mb-56 h-64 lg:h-80">
+                    <div class="ml-6 mt-4">
+                        <h3 class="text-4xl">50+</h3>
+                        <p class="text-xl mt-2">Free lesson video for patient</p>
+                        <img src="Images/Group (1).svg" alt="" class="mt-4 ml-6 lg:w-auto lg:h-auto">
+                    </div>
+                </div>
+            </div>
+            <!-- card ends -->
+            <!-- comprehensive care ends -->
+        </header>
+    </div>
+    
 </body>
 
 </html>
